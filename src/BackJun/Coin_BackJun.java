@@ -1,6 +1,8 @@
+package BackJun;
+
 import java.util.Scanner;
 
-public class Test {
+public class Coin_BackJun {
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);
