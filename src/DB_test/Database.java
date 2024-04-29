@@ -8,7 +8,7 @@ import java.sql.Statement;
 public class Database {
     Connection con = null;
     Statement stmt = null;
-    String url = "jdbc:mysql://localhost:3306/java";
+    String url = "jdbc:mysql://localhost:3306/java"; // mysql 서버 연동이 안됨; ㅠㅠ DB있음
     String user = "root";
     String passwd = "7590sa12";
 
