@@ -5,6 +5,8 @@ import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.Statement;
 
+
+
 public class Database {
     Connection con = null;
     Statement stmt = null;
@@ -51,7 +53,6 @@ public class Database {
             flag = false;
             System.out.println("로그인 실패 > " + e.toString());
         }
-
         return flag;
     }
 }
